@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/l8hdnh10qhivsji1/branch/main?svg=true)](https://ci.appveyor.com/project/MaxKrch/ajs-lesson8/branch/main)
