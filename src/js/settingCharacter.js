@@ -1,12 +1,3 @@
-const settings = {
-	theme: 
-		['dark', 'light', 'gray'],
-	music: 
-		['trance', 'pop', 'rock', 'chillout', 'off'],
-	difficulty: 
-		['easy', 'normal', 'hard', 'nightmare'],
-}
-
 class Settings {
 	constructor() {
 		this.defaultSettings = new Map ([
@@ -26,10 +17,10 @@ class Settings {
 			fullSettings.set(setting[0], setting[1]);
 		} 
 
-		return fullSettings;
+		return Array.from(fullSettings);
 	}
 
-	set setUserSettings(setting = []) {
+	set setUserSettings(setting) {
 		this.userSettings.set(setting[0], setting[1]);
 	}
 }

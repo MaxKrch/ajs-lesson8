@@ -1,8 +1,8 @@
 import Team from "../createTeam.js"
-import { bowerman, swordsman, magician, daemon, undead, zombie } from "../createCharacters.js";
+import { magician, daemon, zombie } from "../createCharacters.js";
 
 
-test("add new character ", () => {
+test("add new character", () => {
 	const myTeam = new Team();
 	myTeam.add(zombie);
 
@@ -14,7 +14,7 @@ test("add new character ", () => {
 
 
 
-test("add double character ", () => {
+test("add double character", () => {
 	const myTeam = new Team();
 	myTeam.add(zombie);
 	

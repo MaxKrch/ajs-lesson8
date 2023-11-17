@@ -1,5 +1,5 @@
 import Team from "./createTeam.js";
-import { bowerman, swordsman, magician, daemon, undead, zombie } from "./createCharacters.js";
+import { magician, daemon, undead, zombie } from "./createCharacters.js";
 import ErrorRepository from "./listErrors.js";
 import Settings from "./settingCharacter.js";
 
